@@ -10,5 +10,5 @@
 var isOdd = require('is-odd');
 
 module.exports = function isEven(i) {
-  return !isOdd(i);
+  return isOdd(i);
 };
